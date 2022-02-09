@@ -1,19 +1,21 @@
 <html>
     <head>
         <title>Signup Form</title>
+        <link rel="stylesheet" href="forms.css">
         <style>
             /* This is using ID selector */
-           #h2Title {
-               font-size: 50px;
-           }
+            /* # means id specifier */
+           /* #h2Title {
+               font-size: 50px; */
+           /* } */
         </style>
     </head>
 <body>
     <h2 id="h2Title" style="color:brown;">SignUp Form</h2>
     <form>
-        <!-- input is self closng tag -->
+        <!-- input is self closing tag -->
         <div>
-            <label name="lblmail" for="InputEmail">Email Adrress</label>
+            <label class="mandatory_fields" name="lbEmail" for="InputEmail">Email Adrress</label>
             <input type="email" name="InputEmail">
         
         </div>
@@ -23,11 +25,11 @@
         
         </div>
         <div>
-            <label name="lblUserName" for="InputUserName">UserName</label>
+            <label class="mandatory_fields" name="lblUserName" for="InputUserName">UserName</label>
             <input type="text" name="InputUserName">
         </div>
         <div>
-             <label name="lblPasswrd" for="InputPassword">Password</label>
+             <label class="mandatory_fields" name="lblPasswrd" for="InputPassword">Password</label>
             <input type="Password" name="InputPassword">
         </div>
         <div>
