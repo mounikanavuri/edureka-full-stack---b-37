@@ -1,10 +1,25 @@
 /* using id selector */
-#h2Title{
+/* #h2Title{
 font-size: 100px;
-font-family: 'Courier New', Courier, monospace;
+font-family: 'Couri5px
+r New', Courier, monospace;
 color: cadetblue;
-}
+} */
 /* universal selector */
+.title{
+    background-color: lightgrey;
+    border: 1px groove lightslategray;
+    border-bottom: 5px dashed black;
+    border-radius: 5px;
+    padding:10px;
+    padding-left: 0;
+    margin: 20px;
+    margin-left: 0;
+    padding: 20px 10px 5px 30px;
+    margin: 20px 10px 5px 30px;
+    margin: 30px 10px;
+
+}
 *{
     font-family: 'Courier New', Courier, monospace;
 
