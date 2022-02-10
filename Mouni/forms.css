@@ -1,0 +1,43 @@
+/* using id selector */
+/* #h2Title{
+font-size: 100px;
+font-family: 'Couri5px
+r New', Courier, monospace;
+color: cadetblue;
+} */
+/* universal selector */
+.title{
+    background-color: lightgrey;
+    border: 1px groove lightslategray;
+    border-bottom: 5px dashed black;
+    border-radius: 5px;
+    padding:10px;
+    padding-left: 0;
+    margin: 20px;
+    margin-left: 0;
+    padding: 20px 10px 5px 30px;
+    margin: 20px 10px 5px 30px;
+    margin: 30px 10px;
+
+}
+*{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+/* using a class selector */
+.mandatory_fields{
+
+    font-weight : bold;
+}
+.container{
+
+    background-color: lightblue;
+}
+.header{
+    height: 200 px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image: url("https://imgmedia.lbb.in/media/2019/02/5c5f0807af208d179e4254e5_1549731847598.jpg");
+
+
+}
