@@ -12,6 +12,100 @@
     margin-left: 15px;
 }
 
+.Login {
+    width: 43px;
+    height: 23px;
+    margin: 0 0px 500px 1000px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: left;
+    color: white;
+  }
+   .logo {
+    background-color: #fff;
+    color: #dd2323;
+    font-size: 40px;
+    font-weight: 600;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins;
+        } 
+   /* .Ellipse-2 {
+    width: 80px;
+    height: 80px;
+    margin: 0 861px 0 0;
+    padding: 1px 10px 4px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+  .e {
+    width: 32px;
+    height: 47px;
+    font-family: Poppins;
+    font-size: 33px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.52;
+    letter-spacing: normal;
+    text-align: left;
+    color:red;
+  }  */
+
+  .Create-an-account {
+    width: 152px;
+    height: 23px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: left;
+    color: white;
+  }
+
+  .Rectangle-2331 {
+  /* width: 1366px; */
+  height: 80 px;
+  margin: 0 0 37px;
+  padding: 15px 101px 13px 102px;
+  background-color: #ce0505;
+  display: flex;
+  align-items: center;
+}
+
+  .Rectangle-17 {
+    width: 181px;
+    height: 46px;
+    margin: 0 0 0 26px;
+    padding: 12px 14px 11px 15px;
+    border-radius: 3px;
+    border: solid 1px #fff;
+  }
+  .Rectangle-2324 {
+    display: inline-block;
+    margin-left: 275px;
+    margin-top: 10px;
+     width: 36px;
+    height: 36px;
+    /* margin: 0 12px 0 13px; */
+    padding: 8px 16px; 
+    border-radius: 7px; 
+    border: solid 1px #8c96ab;
+    background-color: #8c96ab;
+  }
+
 .filter-options {
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
     background-color: #ffffff;
@@ -186,6 +280,12 @@
     border: solid 1px gray;
     border-radius: 15px;
     margin: 2px;
+    /* background-color: grey; */
+}
+
+ .one{
+    background-color: grey;
+    color: white !important;
 }
 
 @media only screen and (max-width: 600px) {
@@ -262,30 +362,3 @@
         margin-left: 50px;
     }
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(233, 22, 22);
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover:not(.active) {
-    background-color: rgb(230, 24, 24);
-  }
-  
-  .active {
-    background-color: #04AA6D;
-  }
